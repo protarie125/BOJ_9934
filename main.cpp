@@ -62,8 +62,8 @@ int main() {
   for (auto i = 1; i <= b; ++i) {
     cout << graph[i] << ' ';
     if (i + 1 == n) {
-      cout << '\n';
       n *= 2;
+      cout << '\n';
     }
   }
 
